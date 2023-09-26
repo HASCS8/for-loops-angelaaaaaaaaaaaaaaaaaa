@@ -4,10 +4,9 @@ def print_rectangle():
     # ***
     # ***
     # ***
-    rows = int(input("Please Enter the Total Number of Rows: "))
-    col = int(input("Please Enter the Total Number of columns: "))
+    rows = 3
+    col = 3
 
-    print("Rectangle Star Pattern")
     for i in range(rows):
         for j in range(col):
             print('*', end='')
