@@ -10,7 +10,7 @@ def print_rectangle():
     print("Rectangle Star Pattern")
     for i in range(rows):
         for j in range(col):
-            print('*', end=' ')
+            print('*', end='')
         print()
 
 def main():
